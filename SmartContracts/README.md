@@ -5,20 +5,3 @@
 
 [solidity]: https://github.com/0x9re9/developments_web3/tree/main/SmartContracts/Solidity/
 [rust]: https://github.com/0x9re9/developments_web3/tree/main/SmartContracts/Rust/
-
-## Solidity Contracts
-
-| Filename      | Description   | Language  |
-| ------------- |:--------------|:---------:|
-| SetterGetter.sol      | A basic contract for set en get value on blockchain | `solidity` |
-| Whitelist.sol      | ... | `solidity` |
-| Airdrop.sol      | ... | `solidity` |
-| TokenMint.sol      | ... | `solidity` |
-| NftMint.sol      | ... | `solidity` |
-| Vault.sol      | ... | `solidity` |
-
-
-## Rust Contracts
-
-| Filename      | Description   | Language  |
-| ------------- |:--------------|:---------:|
