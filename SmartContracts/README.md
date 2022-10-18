@@ -7,6 +7,16 @@
 [link2]: https://link2.com/
 :bookmark:
 
+## Solidity Contracts
+
 | Filename      | Description   | Cool  |
-| ------------- |:-------------:| -----:|
-| SetGet.sol      | abc... | `$1600` |
+| ------------- |:-------------| -----:|
+| SetterGetter.sol      | A basic contract for set en get value on blockchain | `solidity` |
+| Whitelist.sol      | ... | `solidity` |
+| Airdrop.sol      | ... | `solidity` |
+| TokenMint.sol      | ... | `solidity` |
+| NftMint.sol      | ... | `solidity` |
+| Vault.sol      | ... | `solidity` |
+
+
+## Rust Contracts
