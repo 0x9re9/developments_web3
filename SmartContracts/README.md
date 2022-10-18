@@ -1,16 +1,15 @@
 # Smart Contracts
 
-<kbd> <br> :file_folder: [folder1][link1] <br> </kbd>
-<kbd> <br> :file_folder: [folder2][link2] <br> </kbd>
+<kbd><br>:file_folder: [Solidity][solidity]<br></kbd>
+<kbd><br>:file_folder: [Rust][rust]<br></kbd>
 
-[link1]: https://link1.com/
-[link2]: https://link2.com/
-:bookmark:
+[solidity]: https://github.com/0x9re9/developments_web3/tree/master/SmartContracts/Solidity/
+[rust]: https://github.com/0x9re9/developments_web3/tree/master/SmartContracts/Rust/
 
 ## Solidity Contracts
 
-| Filename      | Description   | Cool  |
-| ------------- |:-------------| -----:|
+| Filename      | Description   | Language  |
+| ------------- |:--------------|:---------:|
 | SetterGetter.sol      | A basic contract for set en get value on blockchain | `solidity` |
 | Whitelist.sol      | ... | `solidity` |
 | Airdrop.sol      | ... | `solidity` |
@@ -20,3 +19,6 @@
 
 
 ## Rust Contracts
+
+| Filename      | Description   | Language  |
+| ------------- |:--------------|:---------:|
