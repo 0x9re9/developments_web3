@@ -1,7 +1,7 @@
 # Solidity Smart Contracts
 
-| Filename              | Code Online   | Description   | Language  |
-| --------------------- | [code][codedamn_settergetter] |:--------------|:---------:|
+| Filename              | Code Online                   | Description   | Language  |
+| --------------------- | ----------------------------- |:--------------|:---------:|
 | SetterGetter.sol      | [code][codedamn_settergetter] | A basic contract for set en get value on blockchain | `solidity` |
 | Whitelist.sol         | [code][codedamn_settergetter] | ... | `Solidity` |
 | Airdrop.sol           | [code][codedamn_settergetter] | ... | `Solidity` |
