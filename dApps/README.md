@@ -2,9 +2,9 @@
 
 ## Whitelist dApp
 
-<img align="left" alt="React" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" /><kbd> <br> [Title][Link] <br> </kbd>
+<img align="left" alt="React" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" /><kbd> <br> [Open dApp][dapp_whitelist] <br> </kbd>
 
-[Link]: # 'Link with example title.'
+[dapp_whitelist]: https://dapps/0x9re9.com/whitelist 'whitelist dApp'
 
 
 <kbd> <br> <img align="left" alt="React" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />
