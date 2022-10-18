@@ -1,5 +1,10 @@
-# dApps Web3
+# dApps
 
-| dApp Name      | Description   | Language  |
+# Whitelist
+
+<kbd> <br> :file_folder: Open [Whitelist dApp][https://dapps/0x9re9.com/whitelist] <br> </kbd>
+
+| Name      | Description   | Language  |
 | ------------- |:--------------|:---------:|
-| Whitelist.sol      | A basic dApp for whitelist | `Solidity` `React` `Javascript`  |
+| Whitelist      | A basic dApp for whitelist | `Solidity` `React` `Javascript`  |
+
