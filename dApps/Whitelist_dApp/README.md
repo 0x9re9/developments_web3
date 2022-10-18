@@ -1,7 +1,14 @@
-# Projects Web3
+# Whitelist dApp
 
-<kbd> <br> :file_folder: [project1][link1] <br> </kbd>
-<kbd> <br> :file_folder: [project2][link2] <br> </kbd>
+<img align="left" alt="React" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" /><kbd> <br> [Open dApp][dapp_whitelist] <br> </kbd>
 
-[link1]: https://github.com/0x9re9/projects_web3/tree/master/project1/
-[link2]: https://github.com/0x9re9/projects_web3/tree/master/project2/
+[dapp_whitelist]: https://dapps/0x9re9.com/whitelist 'whitelist dApp'
+
+
+<kbd> <br> <img align="left" alt="React" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />
+ Open Whitelist.dApp[https://dapps/0x9re9.com/whitelist] <br> </kbd>
+
+| Name      | Description   | Language  |
+| ------------- |:--------------|:---------:|
+| Whitelist      | A basic dApp for whitelist | `Solidity` `React` `Javascript`  |
+
