@@ -1,15 +1,15 @@
 # Solidity Smart Contracts
 
-| Filename              | Code Online                     | Description   | Language  |
-| --------------------- | ------------------------------- |:--------------|:---------:|
-| storageSimpled.sol    | [code][remix_storageSimpled]    | A basic contract for set en get value on blockchain | `solidity` |
-| storageAdvanced.sol   | [code][remix_storageAdvanced]   | ... | `Solidity` |
-| whitelistSimpled.sol  | [code][remix_whitelistSimpled]  | ... | `Solidity` |
-| whitelistAdvanced.sol | [code][remix_whitelistAdvanced] | ... | `Solidity` |
-| Airdrop.sol           | [code][codedamn_settergetter]   | ... | `Solidity` |
-| TokenMint.sol         | [code][codedamn_settergetter]   | ... | `Solidity` |
-| NftMint.sol           | [code][codedamn_settergetter]   | ... | `Solidity` |
-| Vault.sol             | [code][codedamn_settergetter]   | ... | `Solidity` |
+| Filename              | Remix link                      | Description   | Language  |
+| --------------------- |:-------------------------------:|:--------------|:---------:|
+| storageSimpled.sol    | [test][remix_storageSimpled]    | A basic contract for set en get value on blockchain | `solidity` |
+| storageAdvanced.sol   | [test][remix_storageAdvanced]   | ... | `Solidity` |
+| whitelistSimpled.sol  | [test][remix_whitelistSimpled]  | ... | `Solidity` |
+| whitelistAdvanced.sol | [test][remix_whitelistAdvanced] | ... | `Solidity` |
+| Airdrop.sol           | [test][codedamn_settergetter]   | ... | `Solidity` |
+| TokenMint.sol         | [test][codedamn_settergetter]   | ... | `Solidity` |
+| NftMint.sol           | [test][codedamn_settergetter]   | ... | `Solidity` |
+| Vault.sol             | [test][codedamn_settergetter]   | ... | `Solidity` |
 
 [remix_storageSimpled]: https://remix.ethereum.org/?code=Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IEdQTC0zLjAKCnByYWdtYSBzb2xpZGl0eSBeMC44LjE3OwoKLyoqCiogQHRpdGxlIFNpbXBsZSBTdG9yYWdlCiogQGF1dGhvciAweDlyZTkKKiBAbm90aWNlIENvbnRyYWN0IGZvciBzaW1wbGUgc3RvcmFnZSB2YWx1ZSBzdG9yYWdlRGF0YQoqLwpjb250cmFjdCBTdG9yYWdlU2ltcGxlZCB7CgogICAgLy8vIEBkZXYgVmFyaWFibGUKICAgIHVpbnQgc3RvcmFnZURhdGE7CgogICAgLyoqCiAgICAqIEBkZXYgR2V0IHN0b3JhZ2VEYXRhIHZhbHVlCiAgICAqLwogICAgZnVuY3Rpb24gZ2V0KCkgcHVibGljIHZpZXcgcmV0dXJucyh1aW50KSB7CiAgICAgICAgcmV0dXJuIHN0b3JhZ2VEYXRhOwogICAgfQoKICAgIC8qKgogICAgKiBAZGV2IFNldCBzdG9yYWdlRGF0YSB2YWx1ZQogICAgKiBAcGFyYW0gX24gdmFsdWUgb2YgdmFyaWFibGUgc3RvcmFnZURhdGEKICAgICovCiAgICBmdW5jdGlvbiBzZXQodWludCBfbikgcHVibGljIHsKICAgICAgICBzdG9yYWdlRGF0YSA9IF9uOwogICAgfQoKfQ==
 [remix_storageAdvanced]: https://remix.ethereum.org/?code=Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IEdQTC0zLjAKCnByYWdtYSBzb2xpZGl0eSBeMC44LjE3OwoKLyoqCiogQHRpdGxlIEFkdmFuY2VkIFN0b3JhZ2UKKiBAYXV0aG9yIDB4OXJlOQoqIEBub3RpY2UgQ29udHJhY3QgZm9yIGFkdmFuY2Ugc3RvcmFnZSB2YWx1ZSBzdG9yYWdlRGF0YQoqIEBub3RpY2UgTmVlZCBzZXQgdmFsdWUgb24gZGVsb3ksIG5vIHZhbHVlIGJ5IGRlZmF1bHQKKiBAbm90aWNlIENhbid0IHNldCB2YWx1ZSA1IChyZXF1aXJlKQoqIEBub3RpY2UgQ2FuIHNlbmQgZXZlbnQgKGVtaXQpCiovCmNvbnRyYWN0IFN0b3JhZ2VBZHZhbmNlZCB7CgogICAgLy8vIEBkZXYgVmFyaWFibGUKICAgIHVpbnQgc3RvcmFnZURhdGE7CgogICAgLy8vIEBkZXYgRXZlbnQKICAgIGV2ZW50IHNlbmROKHVpbnQgX24pOwoKICAgIC8vLyBAZGV2IENvbnN0cnVjdG9yCiAgICBjb25zdHJ1Y3Rvcih1aW50IF9uKSBwYXlhYmxlIHsKICAgICAgICBzZXQoX24pOwogICAgfQoKICAgIC8qKgogICAgKiBAZGV2IEdldCBzdG9yYWdlRGF0YSB2YWx1ZQogICAgKi8KICAgIGZ1bmN0aW9uIGdldCgpIHB1YmxpYyB2aWV3IHJldHVybnModWludCkgewogICAgICAgIHJldHVybiBzdG9yYWdlRGF0YTsKICAgIH0KCiAgICAvKioKICAgICogQGRldiBTZXQgc3RvcmFnZURhdGEgdmFsdWUKICAgICogQHBhcmFtIF9uIHZhbHVlIG9mIHZhcmlhYmxlIHN0b3JhZ2VEYXRhCiAgICAqLwogICAgZnVuY3Rpb24gc2V0KHVpbnQgX24pIHB1YmxpYyB7CiAgICAgICAgcmVxdWlyZSh1aW50KF9uKSAhPSA1LCAiWW91IGNhbid0IHNldCA1Iik7CiAgICAgICAgc3RvcmFnZURhdGEgPSBfbjsKICAgICAgICBlbWl0IHNlbmROKF9uKTsKICAgIH0KCn0
