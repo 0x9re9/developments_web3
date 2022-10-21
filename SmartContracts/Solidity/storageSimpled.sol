@@ -7,7 +7,7 @@ pragma solidity ^0.8.17;
 * @author 0x9re9
 * @notice Contract for simple storage value storageData
 */
-contract SimpleStorage {
+contract StorageSimpled {
 
     /// @dev Variable
     uint storageData;

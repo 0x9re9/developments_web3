@@ -10,7 +10,7 @@ pragma solidity ^0.8.17;
 * @notice Can't set value 5 (require)
 * @notice Can send event (emit)
 */
-contract AdvancedStorage {
+contract StorageAdvanced {
 
     /// @dev Variable
     uint storageData;
