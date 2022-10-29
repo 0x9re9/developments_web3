@@ -64,6 +64,7 @@ contract WhitelistAdvanced {
 
     /**
     * @dev Get status of address
+    * @param _addr return status of address
     */
     function getStatus(address _addr) external view returns (AddrList memory) {
         return addrLists[_addr];
@@ -72,6 +73,7 @@ contract WhitelistAdvanced {
 
     /**
     * @dev Add owner whitelist address
+    * @param _addr add owner address to whitelist
     */
     function addOwnerWhitelist(address _addr) internal {
         require(keccak256(abi.encodePacked(addrLists[_addr].isStatus)) != keccak256(abi.encodePacked('whitelist')), 'Already whitelisted');
@@ -84,6 +86,7 @@ contract WhitelistAdvanced {
 
     /**
     * @dev Add whitelist address
+    * @param _addr add address to whitelist
     */
     function addWhitelist(address _addr) external {
         require(ListStatus == true, 'List is not open.');
@@ -101,6 +104,7 @@ contract WhitelistAdvanced {
 
     /**
     * @dev Add blacklist address
+    * @param _addr add owner address to blacklist
     */
     function addBlacklist(address _addr) external {
         require(ListStatus == true, 'List is not open.');
@@ -117,6 +121,7 @@ contract WhitelistAdvanced {
 
     /**
     * @dev Set status of address
+    * @param _maxWhitelist set max address in whitelist
     */
     function setMaxWhitelist(uint _maxWhitelist) external {
         maxWhitelist = _maxWhitelist;

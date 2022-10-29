@@ -21,6 +21,7 @@ contract WhitelistSimpled {
 
     /**
     * @dev Add whitelist address
+    * @param _addr add address to whitelist
     */
     function addWhitelist(address _addr) external {
         require(whiteLists[_addr].isWhitelist != true, 'Already whitelisted');
@@ -29,6 +30,7 @@ contract WhitelistSimpled {
 
     /**
     * @dev Get status of address
+    * @param _addr return status of address
     */
     function getStatus(address _addr) external view returns (WhiteList memory) {
         return whiteLists[_addr];
